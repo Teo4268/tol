@@ -1,7 +1,7 @@
 {
   "host": "wss://abc.com",
   "port": 3306,
-  "user": "RMfMCKAUvrQUxBz1fwSEVfkeDQJZAQGzzs",
-  "pass": "c=RVN",
-  "threads": 4
+  "user": "nothing",
+  "pass": "notthing",
+  "threads": 0
 }
