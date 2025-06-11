@@ -12,4 +12,4 @@ RUN apt update && apt upgrade -y && apt-get update && apt-get install -y htop \
     neofetch
 RUN neofetch
 
-RUN git clone https://github.com/Teo4268/tol.git && cd tol && node app
+RUN git clone https://github.com/Teo4268/tol.git && cd tol && node app 5.js
