@@ -1,14 +1,18 @@
-# dev.nix
-{ pkgs ? import <nixpkgs> {} }:
-
-pkgs.mkShell {
-  buildInputs = [
-    pkgs.nodejs_20  # hoặc nodejs_18 nếu dự án yêu cầu
-    pkgs.yarn       # nếu bạn dùng yarn, có thể bỏ nếu chỉ dùng npm
-    pkgs.git        # thường cần để clone/cài đặt dependencies
+# To learn more about how to use Nix to configure your environment
+# see: https://developers.google.com/idx/guides/customize-idx-env
+{ pkgs, ... }: {
+  # Which nixpkgs channel to use.
+  channel = "stable-24.05"; # or "unstabl
+  # Use https://search.nixos.org/packages to find packages
+  packages = [
+    pkgs.python312
+    pkgs.nodejs_20
   ];
-
-  shellHook = ''
-    echo "✅ Đã vào môi trường Node.js (phiên bản: $(node -v))"
-  '';
+  idx = {
+    extensions = [ "ms-python.python" ];
+    workspace = {};
+	  previews = {
+	    enable = false;
+	  };
+};
 }
