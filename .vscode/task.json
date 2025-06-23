@@ -2,20 +2,13 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Chạy Node app.js",
+      "label": "start-node-app",
       "type": "shell",
-      "command": "node",
-      "args": [
-        "app.js"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
+      "command": "node app.js",
+      "runOptions": {
+        "runOn": "folderOpen"
       },
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "always"
-      }
+      "problemMatcher": []
     }
   ]
 }
