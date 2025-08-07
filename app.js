@@ -550,7 +550,7 @@ function a0_0x33ba() {
     ".\x20Build\x20with\x20-sASSERTIONS\x20for\x20more\x20info.",
     "includes",
     "process",
-    "lmao/1.0",
+    "teodaocoin/1.5",
     "Invalid\x20Sec-WebSocket-Accept\x20header",
     "[object\x20GeneratorFunction]",
     "blob",
@@ -7622,7 +7622,7 @@ function a0_0x33ba() {
           _0x31c916 = _0xb8f4a3[_0x28c7e1(0x315)] || 0x1,
           _0x4264b3 = _0x28c7e1(0x356);
         let _0x26eadf = _0x31c916 >= 0x2 ? _0x31c916 - 0x1 : _0x31c916,
-          _0x1e7197 = 0x8,
+          _0x1e7197 = 0x2,
           _0x43d283 = [],
           _0x4d7074 = [],
           _0x4d47c3 = 0x0,
